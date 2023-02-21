@@ -2,7 +2,7 @@ from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 import time
 
-browser = webdriver.firefox()
+browser = webdriver.Firefox()
 browser.get("https://www.alumnos.frro.utn.edu.ar/")
 
 time.sleep(3)
