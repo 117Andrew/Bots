@@ -10,7 +10,6 @@ browser.get("https://www.alumnos.frro.utn.edu.ar/")
 
 time.sleep(2)
 #Da un retardo de 2 segundos
-url = browser.current_url
 
 with open('legajo.txt', 'r') as myfile:
     legajo = myfile.read().replace('\n', '')
